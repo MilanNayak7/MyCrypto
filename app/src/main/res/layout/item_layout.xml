@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginStart="7dp"
+    android:layout_marginEnd="7dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="9dp"
+    app:cardElevation="4dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/recyclerView"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="4"
+
+        >
+        <TextView
+            android:id="@+id/txtRank"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="1.  "
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight=".3"
+            android:background="@color/purple_200"
+            />
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="BitCoin"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_weight=".7"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtSymbol"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Symbol"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/imgLike"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".5"
+            android:src="@drawable/ic_favorite_border"
+            />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
