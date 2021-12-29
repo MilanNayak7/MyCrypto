@@ -40,7 +40,7 @@ class AllCryptoFragment : Fragment() {
                 val cry = response.body()
                 if (cry != null) {
                     Log.d("Milan", cry.toString())
-                    adapter = CryptoAdapter(requireContext(),cry.data,this)
+                    adapter = CryptoAdapter(requireContext(),cry.data)
                     cryptoList.adapter = adapter
                     cryptoList.layoutManager  = LinearLayoutManager(requireContext())
 
