@@ -63,7 +63,7 @@
         <ImageView
             android:id="@+id/imgLike"
             android:layout_width="0dp"
-            android:layout_height="30dp"
+            android:layout_height="25dp"
             android:layout_gravity="center_vertical"
             android:layout_weight=".5"
             android:src="@drawable/ic_favorite_border"

@@ -10,4 +10,5 @@
     <color name="recyclerView">#f5f0e1</color>
     <color name="Background">#e5e5dc</color>
     <color name="tab">#be1558</color>
+    <color name="button">#104c91</color>
 </resources>
