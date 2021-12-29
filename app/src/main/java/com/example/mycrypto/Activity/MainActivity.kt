@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         viewPager.adapter = fragmentAdapter
         tabLayout.setupWithViewPager(viewPager)
 
-        val id = intent.getStringExtra("Data_id")
+        //val id = intent.getStringExtra("Data_id")
 
 
 

@@ -13,6 +13,7 @@ import com.example.mycrypto.Crypto
 import com.example.mycrypto.Data
 import com.example.mycrypto.Fragment.FavouriteFragment
 import com.example.mycrypto.R
+import com.example.mycrypto.USDoller
 import retrofit2.Callback
 
 class CryptoAdapter(var context: Context, var data: List<Data>) :
