@@ -33,7 +33,7 @@ class CryptoAdapter(var context: Context, var data: List<Data>) :
         holder.cmc_rank.text= data.cmc_rank.toString()
         holder.itemView.setOnClickListener {
             Toast.makeText(context,"${data.id}",Toast.LENGTH_LONG).show()
-            val intent = Intent(context,MainActivity::class.java)
+            val intent = Intent(context,FavouriteFragment::class.java)
             intent.putExtra("Data_id",data.id.toString())
             intent.putExtra("Data_name",data.name.toString())
             intent.putExtra("Data_symbol",data.symbol.toString())

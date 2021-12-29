@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var viewPager = findViewById<ViewPager>(R.id.viewPager)
-        var tabLayout = findViewById<TabLayout>(R.id.allCryptoTab)
+        val viewPager = findViewById<ViewPager>(R.id.viewPager)
+        val tabLayout = findViewById<TabLayout>(R.id.allCryptoTab)
 
         val fragmentAdapter =ViewPagerFragmentAdapter(supportFragmentManager)
         fragmentAdapter.addFragment(AllCryptoFragment(),"Home")
